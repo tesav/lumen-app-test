@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "22fdbc71-651a-43a8-bcfe-9ad25246958e",
+		"name": "My API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/register?first_name=John&last_name=Major&phone=+000000000&email=a@a.aa&password=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "John"
+						},
+						{
+							"key": "last_name",
+							"value": "Major"
+						},
+						{
+							"key": "phone",
+							"value": "+000000000"
+						},
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User sign-in",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/register?first_name=John&last_name=Major&phone=+000000000&email=a@a.aa&password=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "John"
+						},
+						{
+							"key": "last_name",
+							"value": "Major"
+						},
+						{
+							"key": "phone",
+							"value": "+000000000"
+						},
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User add company",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/register?first_name=John&last_name=Major&phone=+000000000&email=a@a.aa&password=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "John"
+						},
+						{
+							"key": "last_name",
+							"value": "Major"
+						},
+						{
+							"key": "phone",
+							"value": "+000000000"
+						},
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User get companies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/register?first_name=John&last_name=Major&phone=+000000000&email=a@a.aa&password=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "John"
+						},
+						{
+							"key": "last_name",
+							"value": "Major"
+						},
+						{
+							"key": "phone",
+							"value": "+000000000"
+						},
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User POST recover-password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/register?first_name=John&last_name=Major&phone=+000000000&email=a@a.aa&password=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "John"
+						},
+						{
+							"key": "last_name",
+							"value": "Major"
+						},
+						{
+							"key": "phone",
+							"value": "+000000000"
+						},
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User PATCH recover-password Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/recover-password?email=a@a.aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"recover-password"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "a@a.aa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
